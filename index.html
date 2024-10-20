@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royed Muthomi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc6d51fded.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="" class="logo">Roy<span>ed.</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hello, It's Roy<Span>ed</Span></h1>
+                <h3>Your Ultimate Developer</h3>
+            </div>
+        </div>
+    </div>
+<!-------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/b9.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">My Skills</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi reprehenderit, perspiciatis facilis quibusdam eaque tempora a! Accusamus laboriosam sequi, distinctio dignissimos sunt illum expedita sint quis ullam dolorum nostrum?</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi reprehenderit, perspiciatis facilis quibusdam eaque tempora a! Accusamus laboriosam sequi, distinctio dignissimos sunt illum expedita sint quis ullam dolorum nostrum?</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Graphics Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi reprehenderit, perspiciatis facilis quibusdam eaque tempora a! Accusamus laboriosam sequi, distinctio dignissimos sunt illum expedita sint quis ullam dolorum nostrum?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/b.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you and other talented people around the world. Download it from playstore.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/b.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you and other talented people around the world. Download it from playstore.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/b.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you and other talented people around the world. Download it from playstore.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+
+<!-----------contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get in touch</h1>
+                <p><i class="fa-solid fa-envelope"></i>royedmuthomi@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+254 759 629 498</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/royed.muthomi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/roy_ed.official?igsh=Y3M2cm40b3VnbG9x"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254759629498"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/royed-muthomi-bb3375241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i>
+                </div>
+                <a href="tel:+254759629498" class="btn">Contact Me</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Royed. All rights reserved.</p>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlFTM6bCJtsz4X-gzBqAiHgWG0ZyANmonK588o9zy3UK8zw_ZzUmdyFR5ri6NF5Sea/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
